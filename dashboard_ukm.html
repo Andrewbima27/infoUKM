@@ -122,6 +122,11 @@
             overflow: hidden;
             box-shadow: 0 4px 6px rgba(0,0,0,0.05);
         }
+
+        .table-responsive {
+            overflow-x: auto;
+            display: block;
+        }
         
         table {
             width: 100%;
@@ -282,7 +287,7 @@
     </div>
     
     <h2 style="margin-bottom: 1rem; color: var(--primary);">Daftar Event Terbaru</h2>
-    <div class="events-table">
+    <div class="events-table table-responsive">
         <table>
             <thead>
                 <tr>
